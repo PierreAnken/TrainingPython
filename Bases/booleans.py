@@ -3,7 +3,7 @@ if __name__ == '__main__':
     print(True)
     print(3 < 5)
 
-    if 3 > 2:
+    if 3 > 1:
         print('x')
 
     my_list = ['2']
