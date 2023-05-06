@@ -1,0 +1,3970 @@
+{
+  '129': {
+    'is_wheeled': False,
+    'radios': [
+      2439
+    ],
+    'is_premium': False,
+    'tag': 'S05_Strv_M21_29',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/sweden-S05_Strv_M21_29.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/sweden-S05_Strv_M21_29.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/sweden-S05_Strv_M21_29.png'
+    },
+    'tank_id': 129,
+    'suspensions': [
+      642
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      14843,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      16123,
+      97531,
+      28411,
+      28667,
+      51195,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      6789
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      },
+      {
+        'roles': {
+          'loader': 'Chargeur'
+        },
+        'member_id': 'loader'
+      },
+      {
+        'roles': {
+          'radioman': 'Opérateur radio'
+        },
+        'member_id': 'radioman'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      644,
+      1156
+    ],
+    'multination': None,
+    'description': "Le char LK II a été développé en Allemagne en 1918. Le véhicule a passé des essais, et l'Allemagne a commandé 1 000 de ces chars. Toutefois, la commande n'a pas été honorée avant la fin de la Première Guerre mondiale. En 1920, l'Allemagne a vendu 10 véhicules LK II à la Suède, lesquels sont entrés en service sous le nom de Stridsvagn fm/21. De 1929 à 1932, les véhicules ont profité d'une modernisation en recevant de meilleurs moteurs et un renforcement du blindage frontal. Tous les véhicules modernisés ont reçu le nom de Stridsvagn m/21-29 et ont été utilisés pour l'entraînement jusqu'en 1940.",
+    'short_name': 'Strv fm/21',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '385': 275
+    },
+    'modules_tree': {
+      '642': {
+        'name': 'Strv fm/21',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 642,
+        'type': 'vehicleChassis'
+      },
+      '643': {
+        'name': 'Strv fm/21',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 643,
+        'type': 'vehicleTurret'
+      },
+      '644': {
+        'name': '20 mm akan m/Madsen',
+        'next_modules': None,
+        'next_tanks': [
+          385
+        ],
+        'is_default': False,
+        'price_xp': 35,
+        'price_credit': 1940,
+        'module_id': 644,
+        'type': 'vehicleGun'
+      },
+      '6789': {
+        'name': 'Daimler-Benz m/1910',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 6789,
+        'type': 'vehicleEngine'
+      },
+      '2439': {
+        'name': '1 W Sv',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 2439,
+        'type': 'vehicleRadio'
+      },
+      '1156': {
+        'name': '37 mm kan m/Škoda',
+        'next_modules': [
+          644
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1156,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'sweden',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Strv fm/21',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Daimler-Benz m/1910',
+        'power': 55,
+        'weight': 400,
+        'tag': 'Daimler_Benz_m_1910',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 230,
+      'suspension': {
+        'name': 'Strv fm/21',
+        'weight': 2500,
+        'load_limit': 10000,
+        'tag': 'Chassis_S05_Strv_M21_29',
+        'traverse_speed': 35,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 9000,
+      'armor': {
+        'turret': {
+          'front': 14,
+          'sides': 14,
+          'rear': 14
+        },
+        'hull': {
+          'front': 14,
+          'sides': 14,
+          'rear': 14
+        }
+      },
+      'hp': 280,
+      'modules': {
+        'gun_id': 1156,
+        'suspension_id': 642,
+        'turret_id': 643,
+        'radio_id': 2439,
+        'engine_id': 6789
+      },
+      'gun': {
+        'move_down_arc': 10,
+        'caliber': 37,
+        'name': '37 mm kan m/Škoda',
+        'weight': 38,
+        'move_up_arc': 15,
+        'fire_rate': 23.08,
+        'dispersion': 0.44,
+        'tag': '_37mm_kanon_m_Skoda',
+        'traverse_speed': 40,
+        'reload_time': 2.6,
+        'tier': 1,
+        'aim_time': 1.9
+      },
+      'turret': {
+        'name': 'Strv fm/21',
+        'weight': 500,
+        'view_range': 290,
+        'hp': 56,
+        'tag': 'Turret_1_S05_Strv_M21_29',
+        'traverse_speed': 28,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 5328,
+      'radio': {
+        'tier': 2,
+        'signal_range': 265,
+        'tag': '_1_W_Sv',
+        'name': '1 W Sv',
+        'weight': 34
+      },
+      'rapid': None,
+      'speed_forward': 25,
+      'hull_hp': 224,
+      'speed_backward': 14,
+      'ammo': [
+        {
+          'penetration': [
+            25,
+            33,
+            41
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            30,
+            40,
+            50
+          ]
+        },
+        {
+          'penetration': [
+            33,
+            44,
+            55
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            30,
+            40,
+            50
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            34,
+            45,
+            56
+          ]
+        }
+      ],
+      'max_weight': 10000
+    },
+    'turrets': [
+      643
+    ]
+  },
+  '113': {
+    'is_wheeled': False,
+    'radios': [
+      375
+    ],
+    'is_premium': False,
+    'tag': 'Cz06_Kolohousenka',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/czech-Cz06_Kolohousenka.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/czech-Cz06_Kolohousenka.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/czech-Cz06_Kolohousenka.png'
+    },
+    'tank_id': 113,
+    'suspensions': [
+      370
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      14843,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      15867,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      629
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      628,
+      372
+    ],
+    'multination': None,
+    'description': "Ce char léger caterpillar à roues a été développé à la fin des années 1920 sur la base de la suspension du tracteur Hanomag WD-50. Le véhicule n'a jamais participé en combat car il était considéré comme obsolète après avoir subi des essais. Plusieurs véhicules ont été fabriqués, dans trois versions\xa0; trois d'entre eux ont été fournis à l'Italie et à l'URSS. Lors de l'occupation allemande, seul un véhicule restait encore en Tchécoslovaquie, utilisé comme monument.",
+    'short_name': 'K-housenka',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '369': 230
+    },
+    'modules_tree': {
+      '370': {
+        'name': 'Kolohousenka KH-50',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 370,
+        'type': 'vehicleChassis'
+      },
+      '371': {
+        'name': 'Kolohousenka KH-70',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 371,
+        'type': 'vehicleTurret'
+      },
+      '628': {
+        'name': '47 mm Rychlopalné dělo Vickers L/20',
+        'next_modules': None,
+        'next_tanks': [
+          369
+        ],
+        'is_default': False,
+        'price_xp': 80,
+        'price_credit': 2400,
+        'module_id': 628,
+        'type': 'vehicleGun'
+      },
+      '629': {
+        'name': 'Hanomag WD-50PS',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 629,
+        'type': 'vehicleEngine'
+      },
+      '375': {
+        'name': 'Radiostanice vz. 29',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 375,
+        'type': 'vehicleRadio'
+      },
+      '372': {
+        'name': '37 mm Pěchotní dělo Škoda L/27',
+        'next_modules': [
+          628
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 372,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'czech',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Kolohousenka',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Hanomag WD-50PS',
+        'power': 50,
+        'weight': 300,
+        'tag': 'Hanomag_WD_50PS',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 230,
+      'suspension': {
+        'name': 'Kolohousenka KH-50',
+        'weight': 2500,
+        'load_limit': 10000,
+        'tag': 'Chassis_Cz06_Kolohousenka',
+        'traverse_speed': 40,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 8000,
+      'armor': {
+        'turret': {
+          'front': 14,
+          'sides': 14,
+          'rear': 14
+        },
+        'hull': {
+          'front': 14,
+          'sides': 8,
+          'rear': 6
+        }
+      },
+      'hp': 235,
+      'modules': {
+        'gun_id': 372,
+        'suspension_id': 370,
+        'turret_id': 371,
+        'radio_id': 375,
+        'engine_id': 629
+      },
+      'gun': {
+        'move_down_arc': 10,
+        'caliber': 37,
+        'name': '37 mm Pěchotní dělo Škoda L/27',
+        'weight': 175,
+        'move_up_arc': 20,
+        'fire_rate': 18.18,
+        'dispersion': 0.44,
+        'tag': '_37mm_Pechotni_delo_Skoda_L_27',
+        'traverse_speed': 40,
+        'reload_time': 3.3,
+        'tier': 1,
+        'aim_time': 2.1
+      },
+      'turret': {
+        'name': 'Kolohousenka KH-70',
+        'weight': 500,
+        'view_range': 280,
+        'hp': 47,
+        'tag': 'Turret_1_Cz06_Kolohousenka',
+        'traverse_speed': 28,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 4285,
+      'radio': {
+        'tier': 2,
+        'signal_range': 265,
+        'tag': 'Radiostanice_vz_29',
+        'name': 'Radiostanice vz. 29',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 25,
+      'hull_hp': 188,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            25,
+            33,
+            41
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            30,
+            40,
+            50
+          ]
+        },
+        {
+          'penetration': [
+            33,
+            44,
+            55
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            30,
+            40,
+            50
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            34,
+            45,
+            56
+          ]
+        }
+      ],
+      'max_weight': 10000
+    },
+    'turrets': [
+      371
+    ]
+  },
+  '5201': {
+    'is_wheeled': False,
+    'radios': [
+      1111
+    ],
+    'is_premium': False,
+    'tag': 'GB03_Cruiser_Mk_I',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/uk-GB03_Cruiser_Mk_I.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/uk-GB03_Cruiser_Mk_I.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/uk-GB03_Cruiser_Mk_I.png'
+    },
+    'tank_id': 5201,
+    'suspensions': [
+      11858
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      6651,
+      51707,
+      51963,
+      96251,
+      14843,
+      47355,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      4603,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      10837
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'gunner': 'Tireur'
+        },
+        'member_id': 'gunner'
+      },
+      {
+        'roles': {
+          'gunner': 'Tireur'
+        },
+        'member_id': 'gunner'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      },
+      {
+        'roles': {
+          'radioman': 'Opérateur radio'
+        },
+        'member_id': 'radioman'
+      },
+      {
+        'roles': {
+          'loader': 'Chargeur'
+        },
+        'member_id': 'loader'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      26452,
+      26708
+    ],
+    'multination': None,
+    'description': "Le premier char cruiser de l'arsenal britannique. Le développement a été lancé en 1934 par Vickers. Au total, 125 véhicules ont été produits en série de 1936 à 1937.",
+    'short_name': 'Cruiser I',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '6993': 220
+    },
+    'modules_tree': {
+      '11858': {
+        'name': 'A9 Mk. I',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 11858,
+        'type': 'vehicleChassis'
+      },
+      '11347': {
+        'name': 'Cruiser Mk. I',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 11347,
+        'type': 'vehicleTurret'
+      },
+      '26452': {
+        'name': 'QF 2-pdr Mk. IX prototype',
+        'next_modules': [
+          26708
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 26452,
+        'type': 'vehicleGun'
+      },
+      '10837': {
+        'name': 'Rolls-Royce Phantom',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 10837,
+        'type': 'vehicleEngine'
+      },
+      '1111': {
+        'name': 'WS No. 14',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1111,
+        'type': 'vehicleRadio'
+      },
+      '26708': {
+        'name': '40 mm Pom-Pom prototype',
+        'next_modules': None,
+        'next_tanks': [
+          6993
+        ],
+        'is_default': False,
+        'price_xp': 90,
+        'price_credit': 3000,
+        'module_id': 26708,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'uk',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Cruiser Mk. I',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Rolls-Royce Phantom',
+        'power': 120,
+        'weight': 340,
+        'tag': 'Rolls_Royse_Phantom',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 120,
+      'suspension': {
+        'name': 'A9 Mk. I',
+        'weight': 3000,
+        'load_limit': 13500,
+        'tag': 'Chassis_GB03_Cruiser_Mk_I',
+        'traverse_speed': 35,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 12753,
+      'armor': {
+        'turret': {
+          'front': 14,
+          'sides': 12,
+          'rear': 14
+        },
+        'hull': {
+          'front': 14,
+          'sides': 10,
+          'rear': 10
+        }
+      },
+      'hp': 255,
+      'modules': {
+        'gun_id': 26452,
+        'suspension_id': 11858,
+        'turret_id': 11347,
+        'radio_id': 1111,
+        'engine_id': 10837
+      },
+      'gun': {
+        'move_down_arc': 15,
+        'caliber': 40,
+        'name': 'QF 2-pdr Mk. IX prototype',
+        'weight': 130,
+        'move_up_arc': 20,
+        'fire_rate': 16.67,
+        'dispersion': 0.48,
+        'tag': '_2pdr_Gun_Mk_IX_prot',
+        'traverse_speed': 44,
+        'reload_time': 3.6,
+        'tier': 1,
+        'aim_time': 2.5
+      },
+      'turret': {
+        'name': 'Cruiser Mk. I',
+        'weight': 2000,
+        'view_range': 280,
+        'hp': 51,
+        'tag': 'Turret_1_GB03_Cruiser_Mk_I',
+        'traverse_speed': 32,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 7043,
+      'radio': {
+        'tier': 2,
+        'signal_range': 250,
+        'tag': 'N14',
+        'name': 'WS No. 14',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 35,
+      'hull_hp': 204,
+      'speed_backward': 12,
+      'ammo': [
+        {
+          'penetration': [
+            30,
+            40,
+            50
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            34,
+            45,
+            56
+          ]
+        },
+        {
+          'penetration': [
+            49,
+            65,
+            81
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            34,
+            45,
+            56
+          ]
+        },
+        {
+          'penetration': [
+            17,
+            23,
+            29
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            45,
+            60,
+            75
+          ]
+        }
+      ],
+      'max_weight': 13500
+    },
+    'turrets': [
+      11347
+    ]
+  },
+  '577': {
+    'is_wheeled': False,
+    'radios': [
+      327
+    ],
+    'is_premium': False,
+    'tag': 'F01_RenaultFT',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/france-F01_RenaultFT.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/france-F01_RenaultFT.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/france-F01_RenaultFT.png'
+    },
+    'tank_id': 577,
+    'suspensions': [
+      1346
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      14843,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      3579,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      1349
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      1604,
+      1860
+    ],
+    'multination': None,
+    'description': 'Le véhicule est entré en service en 1917, avec un total de 3\xa0177 véhicules fabriqués à la fin de la Première Guerre mondiale et 3 800 véhicules produits en tout. Au début de la Seconde Guerre mondiale, 1\xa0560 véhicules étaient en service.',
+    'short_name': 'FT',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '15169': 280
+    },
+    'modules_tree': {
+      '1346': {
+        'name': 'M26/27',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1346,
+        'type': 'vehicleChassis'
+      },
+      '1091': {
+        'name': 'Renault FT Berliet',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1091,
+        'type': 'vehicleTurret'
+      },
+      '1604': {
+        'name': '37 mm APX SA18',
+        'next_modules': [
+          1860
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1604,
+        'type': 'vehicleGun'
+      },
+      '1349': {
+        'name': 'Renault',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1349,
+        'type': 'vehicleEngine'
+      },
+      '327': {
+        'name': 'ER 52',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 327,
+        'type': 'vehicleRadio'
+      },
+      '1860': {
+        'name': '13.2 mm Hotchkiss mle. 1930',
+        'next_modules': None,
+        'next_tanks': [
+          15169
+        ],
+        'is_default': False,
+        'price_xp': 30,
+        'price_credit': 1500,
+        'module_id': 1860,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'france',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Renault FT',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Renault',
+        'power': 39,
+        'weight': 266,
+        'tag': 'Renault',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 545,
+      'suspension': {
+        'name': 'M26/27',
+        'weight': 1200,
+        'load_limit': 6800,
+        'tag': 'Chassis_RenaultFT2',
+        'traverse_speed': 60,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 4816,
+      'armor': {
+        'turret': {
+          'front': 22,
+          'sides': 22,
+          'rear': 16
+        },
+        'hull': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        }
+      },
+      'hp': 245,
+      'modules': {
+        'gun_id': 1604,
+        'suspension_id': 1346,
+        'turret_id': 1091,
+        'radio_id': 327,
+        'engine_id': 1349
+      },
+      'gun': {
+        'move_down_arc': 2,
+        'caliber': 37,
+        'name': '37 mm APX SA18',
+        'weight': 100,
+        'move_up_arc': 35,
+        'fire_rate': 24.0,
+        'dispersion': 0.54,
+        'tag': '_37mm_APX_SA18',
+        'traverse_speed': 44,
+        'reload_time': 2.5,
+        'tier': 1,
+        'aim_time': 2.0
+      },
+      'turret': {
+        'name': 'Renault FT Berliet',
+        'weight': 200,
+        'view_range': 280,
+        'hp': 49,
+        'tag': 'Turret_2_RenaultFT',
+        'traverse_speed': 34,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 2750,
+      'radio': {
+        'tier': 2,
+        'signal_range': 300,
+        'tag': 'ER_52',
+        'name': 'ER 52',
+        'weight': 100
+      },
+      'rapid': None,
+      'speed_forward': 21,
+      'hull_hp': 196,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            22,
+            29,
+            36
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            35,
+            46,
+            58
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        }
+      ],
+      'max_weight': 6800
+    },
+    'turrets': [
+      1091
+    ]
+  },
+  '161': {
+    'is_wheeled': False,
+    'radios': [
+      423
+    ],
+    'is_premium': False,
+    'tag': 'It04_Fiat_3000',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/italy-It04_Fiat_3000.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/italy-It04_Fiat_3000.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/italy-It04_Fiat_3000.png'
+    },
+    'tank_id': 161,
+    'suspensions': [
+      418
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      28667,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      16635,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      14843,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      421
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      676,
+      420
+    ],
+    'multination': None,
+    'description': "Ce véhicule a été développé à partir du char léger français Renault FT. Le premier prototype a été fabriqué en 1919. De 1921 à 1930, un total de 150 véhicules équipés de canons automatiques et de mitrailleuses furent fabriqués, dont 26 furent exportés. Le véhicule a participé aux combats jusqu'en 1943.",
+    'short_name': 'Fiat 3000',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '673': 270
+    },
+    'modules_tree': {
+      '418': {
+        'name': 'Fiat 3000',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 418,
+        'type': 'vehicleChassis'
+      },
+      '419': {
+        'name': 'Fiat 3000 mod. 30',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 419,
+        'type': 'vehicleTurret'
+      },
+      '676': {
+        'name': 'Cannone da 37/40',
+        'next_modules': None,
+        'next_tanks': [
+          673
+        ],
+        'is_default': False,
+        'price_xp': 40,
+        'price_credit': 1950,
+        'module_id': 676,
+        'type': 'vehicleGun'
+      },
+      '421': {
+        'name': 'FIAT 604',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 421,
+        'type': 'vehicleEngine'
+      },
+      '423': {
+        'name': 'R.F.C.R.',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 423,
+        'type': 'vehicleRadio'
+      },
+      '420': {
+        'name': 'Cannone da 37/20',
+        'next_modules': [
+          676
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 420,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'italy',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Fiat 3000',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'FIAT 604',
+        'power': 63,
+        'weight': 300,
+        'tag': 'FIAT_604',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 545,
+      'suspension': {
+        'name': 'Fiat 3000',
+        'weight': 1200,
+        'load_limit': 6500,
+        'tag': 'Chassis_It04_Fiat_3000',
+        'traverse_speed': 50,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 5835,
+      'armor': {
+        'turret': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        },
+        'hull': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        }
+      },
+      'hp': 255,
+      'modules': {
+        'gun_id': 420,
+        'suspension_id': 418,
+        'turret_id': 419,
+        'radio_id': 423,
+        'engine_id': 421
+      },
+      'gun': {
+        'move_down_arc': 10,
+        'caliber': 37,
+        'name': 'Cannone da 37/20',
+        'weight': 30,
+        'move_up_arc': 20,
+        'fire_rate': 23.08,
+        'dispersion': 0.5,
+        'tag': 'Cannone_da_37_20',
+        'traverse_speed': 44,
+        'reload_time': 2.6,
+        'tier': 1,
+        'aim_time': 2.0
+      },
+      'turret': {
+        'name': 'Fiat 3000 mod. 30',
+        'weight': 200,
+        'view_range': 280,
+        'hp': 51,
+        'tag': 'Turret_1_It04_Fiat_3000',
+        'traverse_speed': 34,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 3890,
+      'radio': {
+        'tier': 2,
+        'signal_range': 265,
+        'tag': 'R_F_C_R',
+        'name': 'R.F.C.R.',
+        'weight': 15
+      },
+      'rapid': None,
+      'speed_forward': 21,
+      'hull_hp': 204,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            22,
+            29,
+            36
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            35,
+            46,
+            58
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        }
+      ],
+      'max_weight': 6500
+    },
+    'turrets': [
+      419
+    ]
+  },
+  '3329': {
+    'is_wheeled': False,
+    'radios': [
+      263
+    ],
+    'is_premium': False,
+    'tag': 'R11_MS-1',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/ussr-R11_MS-1.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/ussr-R11_MS-1.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/ussr-R11_MS-1.png'
+    },
+    'tank_id': 3329,
+    'suspensions': [
+      6914
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      11771,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      3323,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      1787,
+      95227,
+      97787,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      6651,
+      51707,
+      51963,
+      96251,
+      1275,
+      47355,
+      9979,
+      3067,
+      5115,
+      9211,
+      50171,
+      93435,
+      98811,
+      26363,
+      28155,
+      95739,
+      51195,
+      97531,
+      52475,
+      28667,
+      93179,
+      98043,
+      29691,
+      92411,
+      12283,
+      7675,
+      92667,
+      14843,
+      50939,
+      251,
+      46075,
+      14331,
+      28411,
+      507,
+      27387,
+      8699,
+      12537,
+      15097,
+      15353,
+      13049,
+      12025,
+      29177,
+      29433,
+      13305
+    ],
+    'engines': [
+      3845
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      9220,
+      5892
+    ],
+    'multination': None,
+    'description': 'Le premier char soviétique produit en série, avec un total de 959 véhicules fabriqués de 1928 à 1931.',
+    'short_name': 'MS-1',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '1025': 270,
+      '15361': 270
+    },
+    'modules_tree': {
+      '6914': {
+        'name': 'T-18',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 6914,
+        'type': 'vehicleChassis'
+      },
+      '6147': {
+        'name': 'MS-1 mod. 1930',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 6147,
+        'type': 'vehicleTurret'
+      },
+      '9220': {
+        'name': '45 mm mod. 1932',
+        'next_modules': None,
+        'next_tanks': [
+          15361,
+          1025
+        ],
+        'is_default': False,
+        'price_xp': 40,
+        'price_credit': 2000,
+        'module_id': 9220,
+        'type': 'vehicleGun'
+      },
+      '3845': {
+        'name': 'GAZ-M1',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 3845,
+        'type': 'vehicleEngine'
+      },
+      '263': {
+        'name': '71-TK-1',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 263,
+        'type': 'vehicleRadio'
+      },
+      '5892': {
+        'name': '37 mm Hotchkiss',
+        'next_modules': [
+          9220
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 5892,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'ussr',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'MS-1',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'GAZ-M1',
+        'power': 55,
+        'weight': 215,
+        'tag': 'GAZ-M1',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 240,
+      'suspension': {
+        'name': 'T-18',
+        'weight': 1200,
+        'load_limit': 6500,
+        'tag': 'T-18Bis',
+        'traverse_speed': 48,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 4759,
+      'armor': {
+        'turret': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        },
+        'hull': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        }
+      },
+      'hp': 215,
+      'modules': {
+        'gun_id': 5892,
+        'suspension_id': 6914,
+        'turret_id': 6147,
+        'radio_id': 263,
+        'engine_id': 3845
+      },
+      'gun': {
+        'move_down_arc': 8,
+        'caliber': 37,
+        'name': '37 mm Hotchkiss',
+        'weight': 104,
+        'move_up_arc': 25,
+        'fire_rate': 24.0,
+        'dispersion': 0.54,
+        'tag': '_37mm_Gochkins',
+        'traverse_speed': 53,
+        'reload_time': 2.5,
+        'tier': 1,
+        'aim_time': 2.5
+      },
+      'turret': {
+        'name': 'MS-1 mod. 1930',
+        'weight': 240,
+        'view_range': 280,
+        'hp': 43,
+        'tag': 'T-18_mod',
+        'traverse_speed': 35,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 2750,
+      'radio': {
+        'tier': 1,
+        'signal_range': 265,
+        'tag': '_71-TK-1',
+        'name': '71-TK-1',
+        'weight': 50
+      },
+      'rapid': None,
+      'speed_forward': 32,
+      'hull_hp': 172,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            26,
+            34,
+            43
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            33,
+            44,
+            55
+          ],
+          'stun': None,
+          'type': 'HOLLOW_CHARGE',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            19,
+            24
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        }
+      ],
+      'max_weight': 6500
+    },
+    'turrets': [
+      6147
+    ]
+  },
+  '1329': {
+    'is_wheeled': False,
+    'radios': [
+      1335
+    ],
+    'is_premium': False,
+    'tag': 'Ch06_Renault_NC31',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/china-Ch06_Renault_NC31.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/china-Ch06_Renault_NC31.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/china-Ch06_Renault_NC31.png'
+    },
+    'tank_id': 1329,
+    'suspensions': [
+      1842
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      29435,
+      12795,
+      27899,
+      1019,
+      29947,
+      3323,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      9211,
+      50939,
+      95227,
+      97787,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      6651,
+      51707,
+      51963,
+      96251,
+      14843,
+      47355,
+      9979,
+      93179,
+      5115,
+      251,
+      50171,
+      93435,
+      26363,
+      28155,
+      95739,
+      51195,
+      97531,
+      763,
+      28667,
+      12283,
+      28411,
+      29691,
+      92411,
+      4091,
+      7675,
+      92667,
+      98043,
+      1275,
+      4347,
+      46075,
+      14331,
+      52475,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      12025,
+      29177,
+      29433,
+      13305,
+      13049
+    ],
+    'engines': [
+      3125
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      1844,
+      1588
+    ],
+    'multination': None,
+    'description': 'Une modification du char Renault FT-17 avec une nouvelle caisse utilisant des éléments de suspension à long trait et des chenilles à crocs en caoutchouc Kegresse-Hinstin à patins en métal. Ces caractéristiques, ajoutées à un moteur amélioré à 45 ch, augmentèrent la vitesse maximale de 16 km/h. Un total de 15 véhicules de ce type furent exportés en Chine.',
+    'short_name': 'NC-31',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '2353': 275
+    },
+    'modules_tree': {
+      '1842': {
+        'name': 'M26/27',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1842,
+        'type': 'vehicleChassis'
+      },
+      '1843': {
+        'name': 'FT-18',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1843,
+        'type': 'vehicleTurret'
+      },
+      '1844': {
+        'name': '37 mm KwK 36 L/46.5',
+        'next_modules': None,
+        'next_tanks': [
+          2353
+        ],
+        'is_default': False,
+        'price_xp': 35,
+        'price_credit': 1900,
+        'module_id': 1844,
+        'type': 'vehicleGun'
+      },
+      '3125': {
+        'name': 'Renault NC-2',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 3125,
+        'type': 'vehicleEngine'
+      },
+      '1335': {
+        'name': 'ER 52',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1335,
+        'type': 'vehicleRadio'
+      },
+      '1588': {
+        'name': '37 mm APX SA18',
+        'next_modules': [
+          1844
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1588,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'china',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Renault NC-31',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Renault NC-2',
+        'power': 75,
+        'weight': 266,
+        'tag': '_Renault_NC',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 545,
+      'suspension': {
+        'name': 'M26/27',
+        'weight': 800,
+        'load_limit': 8600,
+        'tag': 'Chassis_Ch06_Renault_NC31_2',
+        'traverse_speed': 60,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 6599,
+      'armor': {
+        'turret': {
+          'front': 22,
+          'sides': 22,
+          'rear': 22
+        },
+        'hull': {
+          'front': 16,
+          'sides': 16,
+          'rear': 16
+        }
+      },
+      'hp': 235,
+      'modules': {
+        'gun_id': 1588,
+        'suspension_id': 1842,
+        'turret_id': 1843,
+        'radio_id': 1335,
+        'engine_id': 3125
+      },
+      'gun': {
+        'move_down_arc': 6,
+        'caliber': 37,
+        'name': '37 mm APX SA18',
+        'weight': 110,
+        'move_up_arc': 35,
+        'fire_rate': 24.0,
+        'dispersion': 0.54,
+        'tag': '_37mm_APX_SA18',
+        'traverse_speed': 44,
+        'reload_time': 2.5,
+        'tier': 1,
+        'aim_time': 2.0
+      },
+      'turret': {
+        'name': 'FT-18',
+        'weight': 200,
+        'view_range': 280,
+        'hp': 47,
+        'tag': 'Turret_2_Ch06_Renault_NC31',
+        'traverse_speed': 34,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 4923,
+      'radio': {
+        'tier': 2,
+        'signal_range': 300,
+        'tag': 'ER_52',
+        'name': 'ER 52',
+        'weight': 100
+      },
+      'rapid': None,
+      'speed_forward': 25,
+      'hull_hp': 188,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            22,
+            29,
+            36
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            35,
+            46,
+            58
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        }
+      ],
+      'max_weight': 8600
+    },
+    'turrets': [
+      1843
+    ]
+  },
+  '1169': {
+    'is_wheeled': False,
+    'radios': [
+      1431
+    ],
+    'is_premium': False,
+    'tag': 'Pl14_4TP',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/poland-Pl14_4TP.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/poland-Pl14_4TP.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/poland-Pl14_4TP.png'
+    },
+    'tank_id': 1169,
+    'suspensions': [
+      1170
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      16379,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      14843,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      1173
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      1172,
+      1428
+    ],
+    'multination': None,
+    'description': "Le développement d'un nouveau char léger pour les besoins de l'armée polonaise débuta en 1935 à Państwowe Zakłady Inżynieryjne (PZInż) sous la supervision de l'ingénieur Edward Habich. Les développements étrangers eurent un grand impact sur la construction de ce nouveau char léger. Il était basé sur le Vickers Carden Loyd Commercial Light Tank britannique de 4 tonnes. La conception technique fut développée en décembre 1936 et le premier prototype du char PZInż.140 fut fabriqué. Ce véhicule subit des essais d'automne 1937 au printemps 1939, mais ne fut jamais produit en série.",
+    'short_name': '4TP',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '1425': 235
+    },
+    'modules_tree': {
+      '1170': {
+        'name': '4TP',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1170,
+        'type': 'vehicleChassis'
+      },
+      '1171': {
+        'name': '4TP',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1171,
+        'type': 'vehicleTurret'
+      },
+      '1172': {
+        'name': '20 mm wz.38 FK-A',
+        'next_modules': [
+          1428
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1172,
+        'type': 'vehicleGun'
+      },
+      '1173': {
+        'name': 'PZInż.425',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1173,
+        'type': 'vehicleEngine'
+      },
+      '1431': {
+        'name': 'N2',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1431,
+        'type': 'vehicleRadio'
+      },
+      '1428': {
+        'name': '47 mm QFSA',
+        'next_modules': None,
+        'next_tanks': [
+          1425
+        ],
+        'is_default': False,
+        'price_xp': 75,
+        'price_credit': 2350,
+        'module_id': 1428,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'poland',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': '4TP',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'PZInż.425',
+        'power': 85,
+        'weight': 300,
+        'tag': 'PLInz425',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 972,
+      'suspension': {
+        'name': '4TP',
+        'weight': 1200,
+        'load_limit': 6500,
+        'tag': 'Chassis_Pl14_4TP',
+        'traverse_speed': 45,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 4797,
+      'armor': {
+        'turret': {
+          'front': 10,
+          'sides': 8,
+          'rear': 6
+        },
+        'hull': {
+          'front': 11,
+          'sides': 8,
+          'rear': 6
+        }
+      },
+      'hp': 235,
+      'modules': {
+        'gun_id': 1172,
+        'suspension_id': 1170,
+        'turret_id': 1171,
+        'radio_id': 1431,
+        'engine_id': 1173
+      },
+      'gun': {
+        'move_down_arc': 8,
+        'caliber': 20,
+        'name': '20 mm wz.38 FK-A',
+        'weight': 57,
+        'move_up_arc': 15,
+        'fire_rate': 103.6,
+        'dispersion': 0.48,
+        'tag': '_20mm_wz_38_FKA',
+        'traverse_speed': 40,
+        'reload_time': 4.2,
+        'tier': 1,
+        'aim_time': 2.0
+      },
+      'turret': {
+        'name': '4TP',
+        'weight': 240,
+        'view_range': 280,
+        'hp': 47,
+        'tag': 'Turret_1_Pl14_4TP',
+        'traverse_speed': 35,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 2750,
+      'radio': {
+        'tier': 2,
+        'signal_range': 300,
+        'tag': 'N2',
+        'name': 'N2',
+        'weight': 50
+      },
+      'rapid': None,
+      'speed_forward': 35,
+      'hull_hp': 188,
+      'speed_backward': 12,
+      'ammo': [
+        {
+          'penetration': [
+            23,
+            30,
+            38
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            8,
+            11,
+            14
+          ]
+        },
+        {
+          'penetration': [
+            35,
+            47,
+            59
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            8,
+            11,
+            14
+          ]
+        }
+      ],
+      'max_weight': 6500
+    },
+    'turrets': [
+      1171
+    ]
+  },
+  '545': {
+    'is_wheeled': False,
+    'radios': [
+      1063
+    ],
+    'is_premium': False,
+    'tag': 'A01_T1_Cunningham',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/usa-A01_T1_Cunningham.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/usa-A01_T1_Cunningham.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/usa-A01_T1_Cunningham.png'
+    },
+    'tank_id': 545,
+    'suspensions': [
+      1058
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      29435,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      25851,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      6651,
+      51707,
+      51963,
+      96251,
+      14843,
+      47355,
+      9979,
+      93179,
+      5115,
+      95483,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      763,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      28411,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      1829
+    ],
+    'crew': [
+      {
+        'roles': {
+          'radioman': 'Opérateur radio',
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      1060,
+      1316
+    ],
+    'multination': None,
+    'description': "Le char léger expérimental T1E1 a été conçu par la société Cunningham et était un développement avancé du char T1. En avril 1928, quatre véhicules ont été fabriqués. Après avoir passé des essais en 1928, il a été décidé d'améliorer son blindage, menant à la création de la version suivante nommée T1E2.",
+    'short_name': 'T1',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '1825': 280
+    },
+    'modules_tree': {
+      '1058': {
+        'name': 'Cunningham E2',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1058,
+        'type': 'vehicleChassis'
+      },
+      '1059': {
+        'name': 'Cunningham D2',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1059,
+        'type': 'vehicleTurret'
+      },
+      '1060': {
+        'name': '37 mm Gun M1916',
+        'next_modules': [
+          1316
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1060,
+        'type': 'vehicleGun'
+      },
+      '1829': {
+        'name': 'Cunningham V8',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1829,
+        'type': 'vehicleEngine'
+      },
+      '1063': {
+        'name': 'SCR 200',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1063,
+        'type': 'vehicleRadio'
+      },
+      '1316': {
+        'name': '37 mm Semiautomatic Gun M1924',
+        'next_modules': None,
+        'next_tanks': [
+          1825
+        ],
+        'is_default': False,
+        'price_xp': 30,
+        'price_credit': 1900,
+        'module_id': 1316,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'usa',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'T1 Cunningham',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Cunningham V8',
+        'power': 132,
+        'weight': 300,
+        'tag': 'Cunningham_type_3',
+        'fire_chance': 0.2,
+        'tier': 2
+      },
+      'siege': None,
+      'max_ammo': 240,
+      'suspension': {
+        'name': 'Cunningham E2',
+        'weight': 2000,
+        'load_limit': 8300,
+        'tag': 'Cunningham_E2',
+        'traverse_speed': 42,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 7594,
+      'armor': {
+        'turret': {
+          'front': 10,
+          'sides': 6,
+          'rear': 6
+        },
+        'hull': {
+          'front': 10,
+          'sides': 6,
+          'rear': 6
+        }
+      },
+      'hp': 245,
+      'modules': {
+        'gun_id': 1060,
+        'suspension_id': 1058,
+        'turret_id': 1059,
+        'radio_id': 1063,
+        'engine_id': 1829
+      },
+      'gun': {
+        'move_down_arc': 7,
+        'caliber': 37,
+        'name': '37 mm Gun M1916',
+        'weight': 104,
+        'move_up_arc': 20,
+        'fire_rate': 24.0,
+        'dispersion': 0.54,
+        'tag': '_37mm_Gun_M1916',
+        'traverse_speed': 53,
+        'reload_time': 2.5,
+        'tier': 1,
+        'aim_time': 2.5
+      },
+      'turret': {
+        'name': 'Cunningham D2',
+        'weight': 950,
+        'view_range': 280,
+        'hp': 49,
+        'tag': 'Cunningham_D2',
+        'traverse_speed': 35,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 4000,
+      'radio': {
+        'tier': 2,
+        'signal_range': 265,
+        'tag': 'SCR_200',
+        'name': 'SCR 200',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 41,
+      'hull_hp': 196,
+      'speed_backward': 10,
+      'ammo': [
+        {
+          'penetration': [
+            21,
+            28,
+            35
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            34,
+            45,
+            56
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            23,
+            30,
+            38
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            19,
+            24
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        }
+      ],
+      'max_weight': 8300
+    },
+    'turrets': [
+      1059
+    ]
+  },
+  '609': {
+    'is_wheeled': False,
+    'radios': [
+      615
+    ],
+    'is_premium': False,
+    'tag': 'J01_NC27',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/japan-J01_NC27.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/japan-J01_NC27.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/japan-J01_NC27.png'
+    },
+    'tank_id': 609,
+    'suspensions': [
+      1378
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      4859,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      9211,
+      50939,
+      95227,
+      97787,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      6651,
+      51707,
+      51963,
+      96251,
+      14843,
+      47355,
+      9979,
+      93179,
+      5115,
+      251,
+      50171,
+      93435,
+      26363,
+      28155,
+      95739,
+      51195,
+      97531,
+      763,
+      28667,
+      52475,
+      29691,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      4347,
+      46075,
+      14331,
+      28411,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      12025,
+      29177,
+      29433,
+      13305,
+      13049
+    ],
+    'engines': [
+      613
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant',
+          'gunner': 'Tireur',
+          'radioman': 'Opérateur radio',
+          'loader': 'Chargeur'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      356,
+      868
+    ],
+    'multination': None,
+    'description': 'Développé de 1925 à 1928 en France comme une version améliorée du Renault FT. Le projet de modernisation a été achevé et le véhicule a été produit en série. En 1929, un total de 10 véhicules ont été achetés par le Japon et furent désignés Otsu-Gata Sensha (modèle de char B) Les véhicules japonais étaient légèrement modernisés et ont été largement utilisés à la fois pour des interventions et pour les formations.',
+    'short_name': 'R. Otsu',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '865': 270
+    },
+    'modules_tree': {
+      '1378': {
+        'name': 'Renault Otsu',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1378,
+        'type': 'vehicleChassis'
+      },
+      '1123': {
+        'name': 'Renault Otsu',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1123,
+        'type': 'vehicleTurret'
+      },
+      '356': {
+        'name': '13 mm Autocannon Type Ho',
+        'next_modules': [
+          868
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 356,
+        'type': 'vehicleGun'
+      },
+      '613': {
+        'name': 'Mitsubishi A475VD',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 613,
+        'type': 'vehicleEngine'
+      },
+      '615': {
+        'name': 'Type 94 Mk. 4 Otsu',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 615,
+        'type': 'vehicleRadio'
+      },
+      '868': {
+        'name': '37 mm Sogekihou',
+        'next_modules': None,
+        'next_tanks': [
+          865
+        ],
+        'is_default': False,
+        'price_xp': 40,
+        'price_credit': 1900,
+        'module_id': 868,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'japan',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Renault Otsu',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Mitsubishi A475VD',
+        'power': 75,
+        'weight': 650,
+        'tag': 'Mitsubishi',
+        'fire_chance': 0.15,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 1665,
+      'suspension': {
+        'name': 'Renault Otsu',
+        'weight': 2600,
+        'load_limit': 10500,
+        'tag': 'Chassis_NC27_2',
+        'traverse_speed': 40,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 8402,
+      'armor': {
+        'turret': {
+          'front': 20,
+          'sides': 20,
+          'rear': 20
+        },
+        'hull': {
+          'front': 30,
+          'sides': 30,
+          'rear': 22
+        }
+      },
+      'hp': 235,
+      'modules': {
+        'gun_id': 356,
+        'suspension_id': 1378,
+        'turret_id': 1123,
+        'radio_id': 615,
+        'engine_id': 613
+      },
+      'gun': {
+        'move_down_arc': 20,
+        'caliber': 13,
+        'name': '13 mm Autocannon Type Ho',
+        'weight': 38,
+        'move_up_arc': 35,
+        'fire_rate': 117.39,
+        'dispersion': 0.56,
+        'tag': '_13.2mm_Type93',
+        'traverse_speed': 44,
+        'reload_time': 5.8,
+        'tier': 1,
+        'aim_time': 2.0
+      },
+      'turret': {
+        'name': 'Renault Otsu',
+        'weight': 200,
+        'view_range': 280,
+        'hp': 47,
+        'tag': 'Turret_2_NC27',
+        'traverse_speed': 24,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 4674,
+      'radio': {
+        'tier': 2,
+        'signal_range': 300,
+        'tag': '_Type94_Otsu',
+        'name': 'Type 94 Mk. 4 Otsu',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 23,
+      'hull_hp': 188,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            17,
+            23,
+            29
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          'penetration': [
+            27,
+            36,
+            45
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            6,
+            8,
+            10
+          ]
+        }
+      ],
+      'max_weight': 10500
+    },
+    'turrets': [
+      1123
+    ]
+  },
+  '3089': {
+    'is_wheeled': False,
+    'radios': [
+      279
+    ],
+    'is_premium': False,
+    'tag': 'G12_Ltraktor',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/germany-G12_Ltraktor.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/germany-G12_Ltraktor.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/germany-G12_Ltraktor.png'
+    },
+    'tank_id': 3089,
+    'suspensions': [
+      6418
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      2555,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      47355,
+      51707,
+      51963,
+      96251,
+      14843,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      6651,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      4373
+    ],
+    'crew': [
+      {
+        'roles': {
+          'gunner': 'Tireur',
+          'commander': 'Commandant',
+          'radioman': 'Opérateur radio'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      },
+      {
+        'roles': {
+          'loader': 'Chargeur'
+        },
+        'member_id': 'loader'
+      }
+    ],
+    'type': 'lightTank',
+    'guns': [
+      6420,
+      5652
+    ],
+    'multination': None,
+    'description': "Entre 1930 et 1934, quatre prototypes furent produits avec des différences entre leurs armements, l'équipage, le poids ou les suspensions.",
+    'short_name': 'L.Tr.',
+    'is_premium_igr': False,
+    'next_tanks': {
+      '2065': 275
+    },
+    'modules_tree': {
+      '6418': {
+        'name': 'Leichttraktor verstärkteketten',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 6418,
+        'type': 'vehicleChassis'
+      },
+      '4883': {
+        'name': 'Leichttraktor',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 4883,
+        'type': 'vehicleTurret'
+      },
+      '6420': {
+        'name': '2 cm Breda (i)',
+        'next_modules': None,
+        'next_tanks': [
+          2065
+        ],
+        'is_default': False,
+        'price_xp': 35,
+        'price_credit': 1970,
+        'module_id': 6420,
+        'type': 'vehicleGun'
+      },
+      '4373': {
+        'name': 'Krupp M311',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 4373,
+        'type': 'vehicleEngine'
+      },
+      '279': {
+        'name': 'FuG 2',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 279,
+        'type': 'vehicleRadio'
+      },
+      '5652': {
+        'name': '3,7 cm Kw.K. 36 L/46.5',
+        'next_modules': [
+          6420
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 5652,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'germany',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Leichttraktor',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Krupp M311',
+        'power': 85,
+        'weight': 300,
+        'tag': 'Krupp_M311',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 345,
+      'suspension': {
+        'name': 'Leichttraktor verstärkteketten',
+        'weight': 2000,
+        'load_limit': 9500,
+        'tag': 'LeichtertaktorkettenB',
+        'traverse_speed': 66,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 7640,
+      'armor': {
+        'turret': {
+          'front': 14,
+          'sides': 14,
+          'rear': 14
+        },
+        'hull': {
+          'front': 14,
+          'sides': 14,
+          'rear': 14
+        }
+      },
+      'hp': 280,
+      'modules': {
+        'gun_id': 5652,
+        'suspension_id': 6418,
+        'turret_id': 4883,
+        'radio_id': 279,
+        'engine_id': 4373
+      },
+      'gun': {
+        'move_down_arc': 7,
+        'caliber': 37,
+        'name': '3,7 cm Kw.K. 36 L/46.5',
+        'weight': 100,
+        'move_up_arc': 25,
+        'fire_rate': 26.09,
+        'dispersion': 0.46,
+        'tag': '_37mm_KwK_L46',
+        'traverse_speed': 44,
+        'reload_time': 2.3,
+        'tier': 1,
+        'aim_time': 1.7
+      },
+      'turret': {
+        'name': 'Leichttraktor',
+        'weight': 700,
+        'view_range': 310,
+        'hp': 56,
+        'tag': 'Swedish_Bofors',
+        'traverse_speed': 39,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 4300,
+      'radio': {
+        'tier': 2,
+        'signal_range': 265,
+        'tag': 'FuG2',
+        'name': 'FuG 2',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 36,
+      'hull_hp': 224,
+      'speed_backward': 9,
+      'ammo': [
+        {
+          'penetration': [
+            30,
+            40,
+            50
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        },
+        {
+          'penetration': [
+            56,
+            74,
+            93
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            27,
+            36,
+            45
+          ]
+        },
+        {
+          'penetration': [
+            14,
+            18,
+            23
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            32,
+            42,
+            53
+          ]
+        }
+      ],
+      'max_weight': 9500
+    },
+    'turrets': [
+      4883
+    ]
+  },
+  '81': {
+    'is_wheeled': False,
+    'radios': [
+      1111
+    ],
+    'is_premium': False,
+    'tag': 'GB01_Medium_Mark_I',
+    'images': {
+      'small_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/small/uk-GB01_Medium_Mark_I.png',
+      'contour_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/contour/uk-GB01_Medium_Mark_I.png',
+      'big_icon': 'http://api.worldoftanks.eu/static/2.71.0/wot/encyclopedia/vehicle/uk-GB01_Medium_Mark_I.png'
+    },
+    'tank_id': 81,
+    'suspensions': [
+      1362
+    ],
+    'provisions': [
+      94971,
+      2330107,
+      8699,
+      763,
+      12795,
+      27899,
+      1019,
+      29947,
+      11771,
+      93691,
+      95483,
+      29179,
+      47099,
+      15355,
+      1531,
+      2381307,
+      2355707,
+      95995,
+      50939,
+      95227,
+      97787,
+      2299,
+      6139,
+      28923,
+      48891,
+      98555,
+      26107,
+      51451,
+      52219,
+      30203,
+      98299,
+      7419,
+      92923,
+      47611,
+      29435,
+      6651,
+      51707,
+      51963,
+      96251,
+      14843,
+      47355,
+      9979,
+      93179,
+      5115,
+      9211,
+      50171,
+      93435,
+      26363,
+      14331,
+      28155,
+      95739,
+      51195,
+      97531,
+      28411,
+      28667,
+      52475,
+      29691,
+      2043,
+      92411,
+      12283,
+      7675,
+      92667,
+      98043,
+      1275,
+      251,
+      46075,
+      4603,
+      507,
+      27387,
+      98811,
+      12537,
+      15097,
+      15353,
+      29177,
+      29433,
+      13305,
+      13049,
+      12025
+    ],
+    'engines': [
+      1109
+    ],
+    'crew': [
+      {
+        'roles': {
+          'commander': 'Commandant'
+        },
+        'member_id': 'commander'
+      },
+      {
+        'roles': {
+          'gunner': 'Tireur'
+        },
+        'member_id': 'gunner'
+      },
+      {
+        'roles': {
+          'driver': 'Pilote'
+        },
+        'member_id': 'driver'
+      },
+      {
+        'roles': {
+          'radioman': 'Opérateur radio'
+        },
+        'member_id': 'radioman'
+      },
+      {
+        'roles': {
+          'loader': 'Chargeur'
+        },
+        'member_id': 'loader'
+      }
+    ],
+    'type': 'mediumTank',
+    'guns': [
+      1108,
+      1620
+    ],
+    'multination': None,
+    'description': "En 1921, Vickers-Armstrong a développé un projet pour les chars légers Vickers. Les essais de 1923 à 1924 ont montré que le char était prêt pour la production en série. En 1924, le véhicule a été renommé Vickers Medium Tank Mk. I. La même année, un total de 30 véhicules ont été produits et mis en service. 50 véhicules supplémentaires dans la version Mk. IA ont été produits par la suite. Les Vickers Medium Tank restants sont restés en service jusqu'en 1938.",
+    'short_name': 'Medium I',
+    'is_premium_igr': False,
+    'next_tanks': None,
+    'modules_tree': {
+      '1362': {
+        'name': 'Vickers Medium Mk. IA*',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1362,
+        'type': 'vehicleChassis'
+      },
+      '1107': {
+        'name': 'Vickers Medium Mk. I',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1107,
+        'type': 'vehicleTurret'
+      },
+      '1108': {
+        'name': 'OQF 3-pdr Gun Mk. I',
+        'next_modules': [
+          1620
+        ],
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1108,
+        'type': 'vehicleGun'
+      },
+      '1109': {
+        'name': 'Armstrong Siddeley V8',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1109,
+        'type': 'vehicleEngine'
+      },
+      '1111': {
+        'name': 'WS No. 14',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': True,
+        'price_xp': 0,
+        'price_credit': 0,
+        'module_id': 1111,
+        'type': 'vehicleRadio'
+      },
+      '1620': {
+        'name': 'QF 6-pdr 8 cwt Mk. II',
+        'next_modules': None,
+        'next_tanks': None,
+        'is_default': False,
+        'price_xp': 90,
+        'price_credit': 3000,
+        'module_id': 1620,
+        'type': 'vehicleGun'
+      }
+    },
+    'nation': 'uk',
+    'tier': 1,
+    'prices_xp': None,
+    'is_gift': False,
+    'name': 'Vickers Medium Mk. I',
+    'price_gold': 0,
+    'price_credit': 0,
+    'default_profile': {
+      'engine': {
+        'name': 'Armstrong Siddeley V8',
+        'power': 90,
+        'weight': 200,
+        'tag': 'Vickers-Armstrong',
+        'fire_chance': 0.2,
+        'tier': 1
+      },
+      'siege': None,
+      'max_ammo': 205,
+      'suspension': {
+        'name': 'Vickers Medium Mk. IA*',
+        'weight': 3000,
+        'load_limit': 13200,
+        'tag': 'Chassis_GB01_Medium_Mark_I_2',
+        'traverse_speed': 35,
+        'tier': 1,
+        'steering_lock_angle': 0
+      },
+      'weight': 11790,
+      'armor': {
+        'turret': {
+          'front': 6,
+          'sides': 6,
+          'rear': 6
+        },
+        'hull': {
+          'front': 6,
+          'sides': 6,
+          'rear': 6
+        }
+      },
+      'hp': 300,
+      'modules': {
+        'gun_id': 1108,
+        'suspension_id': 1362,
+        'turret_id': 1107,
+        'radio_id': 1111,
+        'engine_id': 1109
+      },
+      'gun': {
+        'move_down_arc': 7,
+        'caliber': 47,
+        'name': 'OQF 3-pdr Gun Mk. I',
+        'weight': 240,
+        'move_up_arc': 16,
+        'fire_rate': 13.33,
+        'dispersion': 0.45,
+        'tag': '_3pdr_gun_Hotchkiss',
+        'traverse_speed': 44,
+        'reload_time': 4.5,
+        'tier': 1,
+        'aim_time': 2.9
+      },
+      'turret': {
+        'name': 'Vickers Medium Mk. I',
+        'weight': 1360,
+        'view_range': 280,
+        'hp': 60,
+        'tag': 'Turret_1_GB01_Medium_Mark_I',
+        'traverse_speed': 32,
+        'traverse_right_arc': 180,
+        'tier': 1,
+        'traverse_left_arc': 180
+      },
+      'hull_weight': 6750,
+      'radio': {
+        'tier': 2,
+        'signal_range': 250,
+        'tag': 'N14',
+        'name': 'WS No. 14',
+        'weight': 40
+      },
+      'rapid': None,
+      'speed_forward': 24,
+      'hull_hp': 240,
+      'speed_backward': 8,
+      'ammo': [
+        {
+          'penetration': [
+            29,
+            38,
+            48
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING',
+          'damage': [
+            38,
+            50,
+            63
+          ]
+        },
+        {
+          'penetration': [
+            50,
+            66,
+            83
+          ],
+          'stun': None,
+          'type': 'ARMOR_PIERCING_CR',
+          'damage': [
+            38,
+            50,
+            63
+          ]
+        },
+        {
+          'penetration': [
+            17,
+            23,
+            29
+          ],
+          'stun': None,
+          'type': 'HIGH_EXPLOSIVE',
+          'damage': [
+            49,
+            65,
+            81
+          ]
+        }
+      ],
+      'max_weight': 13200
+    },
+    'turrets': [
+      1107
+    ]
+  }
+}
