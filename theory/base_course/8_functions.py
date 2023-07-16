@@ -39,7 +39,7 @@ def get_random_number_0_x_optional(x: int = 20) -> int:
 
 def get_sum(*values) -> int:
     """
-    This function return a random value from a list of parameters
+    This function return a random value from a tuple of parameters
     """
     total = 0
     for value in values:
