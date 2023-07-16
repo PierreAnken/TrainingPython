@@ -79,6 +79,7 @@ class StartPage(tk.Frame):
             height=3,
             width=20
         )
+
         label.fps = tk.Label(self, text="Frame per seconds")
         label.fps.grid(row=2, column=0)
         label.codec = tk.Label(self, text="Choose your codec")
