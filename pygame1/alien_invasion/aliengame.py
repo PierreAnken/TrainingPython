@@ -46,7 +46,7 @@ class AlienInvasion:
             self._update_screen()
 
     def _check_events(self):
-        """Respond to keypresses and mouse events."""
+        """Respond to key presses and mouse events."""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
@@ -82,7 +82,7 @@ class AlienInvasion:
             pygame.mouse.set_visible(False)
 
     def _check_keydown_events(self, event):
-        """Respond to keypresses."""
+        """Respond to key presses."""
         if event.key == pygame.K_RIGHT:
             self.ship.moving_right = True
         elif event.key == pygame.K_LEFT:
@@ -173,7 +173,7 @@ class AlienInvasion:
         ship_height = self.ship.rect.height
         available_space_y = (self.settings.screen_height -
                              (3 * alien_height) - ship_height)
-        number_rows = min(available_space_y // (2 * alien_height), 5)
+        number_rows = min(available_space_y // (2 * alien_height), 4)
 
         # Create the full fleet of aliens.
         for row_number in range(number_rows):
