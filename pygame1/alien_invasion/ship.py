@@ -20,16 +20,15 @@ class Ship(Sprite):
         # Store a decimal value for the ship's horizontal position.
         self.x = float(self.rect.x)
 
-        # Movement flag
-        self.moving_right = False
-        self.moving_left = False
-
     def update(self):
         """Update the ship's position based on the movement flag."""
-        if self.moving_right and self.rect.right < self.screen_rect.right:
+
+        keys = pygame.key.get_pressed()
+
+        if keys[pygame.K_RIGHT] and self.rect.right < self.screen_rect.right:
             self.x += self.settings.ship_speed
 
-        elif self.moving_left and self.x > 0:
+        elif keys[pygame.K_LEFT] and self.x > 0:
             self.x -= self.settings.ship_speed
 
         # Update rect object from self.x.

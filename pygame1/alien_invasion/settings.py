@@ -1,3 +1,5 @@
+import pygame.time
+
 from screenresolution import ScreenResolution
 class Settings:
     """A class to store all settings for Alien Invasion."""
@@ -5,9 +7,13 @@ class Settings:
     def __init__(self):
         """Initialize the game's settings."""
         # Screen settings
+        screen_res = ScreenResolution()
         self.screen_width = screen_res.screen_resolution_width
         self.screen_height = screen_res.screen_resolution_height
         self.bg_color = (230, 230, 230)
+
+        self.fps = 60
+        self.clock = pygame.time.Clock()
 
         # Ship settings
         self.ship_speed = 3
@@ -52,4 +58,3 @@ class Settings:
         self.alien_points = int(self.alien_points * self.score_scale)
         print(self.alien_points)
 
-screen_res = ScreenResolution()
