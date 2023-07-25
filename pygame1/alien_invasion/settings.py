@@ -2,7 +2,7 @@ import pygame.time
 
 
 from screenresolution import ScreenResolution
-from aliengame import AlienInvasion  # Fehler weil import loop
+from bullet import Bullet
 
 
 class Settings:
@@ -52,12 +52,11 @@ class Settings:
         self.fleet_direction = 1
         # Scoring
         self.alien_points = 100
-        self.bullet_points = -10
 
     def increase_speed(self):
         """Increase speed settings and alien point values."""
-        count_bullet = AlienInvasion()  # Objekt um den Wert bullet_fired zu importieren
+
         self.ship_speed *= self.speedup_scale
         self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
-        self.alien_points = int(((self.alien_points + (self.bullet_points * count_bullet.bullet_fired)) * self.score_scale))  # alien points - bullet points * bullet fired
+        self.alien_points = int(((self.alien_points + (Bullet.bullet_fired * Bullet.bullet_points)) * self.score_scale))
