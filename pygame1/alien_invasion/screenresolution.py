@@ -1,5 +1,6 @@
 from win32api import GetSystemMetrics
 
+
 class ScreenResolution:
     def __init__(self):
         # Screen settings
