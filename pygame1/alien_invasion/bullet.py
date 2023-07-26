@@ -4,6 +4,8 @@ from pygame.sprite import Sprite
 
 class Bullet(Sprite):
     """A class to manage bullets fired from the ship"""
+    bullet_points = -10
+    bullet_fired = 1
 
     def __init__(self, ai_game):
         """Create a bullet object at the ship's current position."""
@@ -23,9 +25,9 @@ class Bullet(Sprite):
         self.y = float(self.rect.y)
 
         # bullets and points of bullets
-        self.bullet_points = -10
-        self.bullet_fired = 1
-        self.bullet_fired += self.bullet_fired
+
+        self.bullet_fired += 1
+
     def update(self):
         """Move the bullet up the screen."""
 

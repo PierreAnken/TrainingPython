@@ -1,7 +1,5 @@
 import pygame.time
 
-
-from screenresolution import ScreenResolution
 from bullet import Bullet
 
 
@@ -11,9 +9,6 @@ class Settings:
     def __init__(self):
         """Initialize the game's settings."""
         # Screen settings
-        screen_res = ScreenResolution()
-        self.screen_width = screen_res.screen_resolution_width
-        self.screen_height = screen_res.screen_resolution_height
         self.bg_color = (230, 230, 230)
 
         self.fps = 60
