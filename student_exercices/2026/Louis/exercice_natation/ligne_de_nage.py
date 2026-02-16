@@ -1,4 +1,3 @@
-from symtable import Class
 from nageur import Nageur
 
 class LigneDeNage:
@@ -11,10 +10,7 @@ class LigneDeNage:
     def ajouter_nageur(self, nageur):
         # Point 4 : Ajouter le nageur si len < 2, sinon ne rien faire
         # Vérifier que 'nageur' est bien une instance de Nageur
-        if isinstance(nageur, Nageur):
-            pass
-
-        if len(self.nageurs) < 2:
+        if isinstance(nageur, Nageur) and len(self.nageurs) < 2:
             self.nageurs.append(nageur)
 
 

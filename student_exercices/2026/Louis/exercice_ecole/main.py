@@ -26,6 +26,7 @@ from eleves import Eleve
 from salle_de_classe import SalleDeClasse
 from ecole import Ecole
 
+
 # --- TESTS DE VALIDATION (NE PAS MODIFIER) ---
 
 def tester_exercice():
@@ -149,6 +150,7 @@ def tester_exercice():
     print(f"\nSCORE FINAL : {points}/10")
     if points == 10:
         print("FÉLICITATIONS ! Tout est correct.")
+
 
 if __name__ == "__main__":
     tester_exercice()
